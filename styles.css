@@ -26,7 +26,14 @@ body{
     background-color: rgb(255, 255, 255);
     margin:10px;
     opacity: 80%;
+    display: flex;
+    justify-content: end;
+    align-items: end;
+}
 
+.displayText{
+padding-right: 4px;
+font-weight: bold;
 }
 
 .calcBody, .upperHalf, button{
@@ -62,4 +69,17 @@ button{
 .topRow{
     background-color: rgb(58, 53, 88);
     color:white
+}
+
+.lrow{
+    display: flex;
+    gap:4px;
+
+}
+
+.zero{
+    flex-grow: 2;
+}
+.rightSideRow{
+    background-color: rgb(255, 236, 28);
 }
